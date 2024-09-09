@@ -136,13 +136,13 @@ ul li:before {
 /* my plans style end */
 /* always Keep style start */
 .always-keep {
-  width: 1100px;
+  width: 950px;
   height: 200px;
   background-image: url("../images/gradient2.png"), url("../images/watch.png");
   background-repeat: no-repeat;
 
   margin: 0 auto;
-  margin-bottom: 80px;
+  margin-bottom: 120px;
 }
 .always-div {
   width: 500px;
@@ -163,3 +163,69 @@ ul li:before {
   font-weight: bold;
 }
 /* always Keep style end */
+/* footer style start */
+
+.footer {
+  display: flex;
+  justify-content: center;
+  background-color: #000000;
+  color: white;
+  padding: 100px 200px 100px 300px;
+  gap: 180px;
+}
+
+.future-div {
+  width: 50%;
+}
+
+.future-div h2 {
+  font-size: 35px;
+  margin-bottom: 10px;
+}
+
+.future-div p {
+  color: rgb(211, 166, 166);
+  line-height: 23px;
+  margin-bottom: 20px;
+}
+
+.future-div .social-media a {
+  margin-right: 10px;
+}
+
+.future-div .social-media {
+  margin-top: 10px;
+}
+
+.form-div form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-div {
+  width: 50%;
+}
+
+.form-div form h3,
+label,
+button {
+  margin-bottom: 15px;
+}
+
+.extra-style {
+  width: 120px;
+}
+
+form h3 {
+  font-size: 23px;
+  padding-top: 10px;
+}
+
+form input {
+  padding: 13px 40px 13px 10px;
+  background-color: #000000;
+  border: 1px solid rgb(211, 166, 166);
+  text-align: left;
+  border-radius: 5px;
+  color: white;
+}

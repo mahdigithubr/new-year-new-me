@@ -63,6 +63,7 @@
 
 .image-div img {
   width: 400px;
+
 }
 
 .my-failures-div {
@@ -228,4 +229,5 @@ form input {
   text-align: left;
   border-radius: 5px;
   color: white;
+  
 }
